@@ -1,0 +1,21 @@
+{
+  "name": "neuro-geno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start:racing": "electron .",
+    "start:heat": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  },
+  "dependencies": {
+    "@types/three": "^0.103.2",
+    "three": "^0.112.1"
+  }
+}

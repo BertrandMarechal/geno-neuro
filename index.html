@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8">
+            <title>Racing</title>
+        <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <style type="text/css">
+            body {
+                background-color: rgba(0,0,0,0);
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body></body>
+<script>
+    const {Racing} = require("./build/examples/racing/src/main");
+    const {Heat} = require("./build/examples/heat/src/main");
+    const racing = new Racing();
+    racing.run();
+</script>
+</html>
